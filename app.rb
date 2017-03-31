@@ -24,7 +24,7 @@ Click this link to view the fax:
         user_name:      ENV['SMTP_SERVER_USERNAME'],
         password:       ENV['SMTP_SERVER_PASSWORD'],
         authentication: 'plain',
-        domain:         'bugsplat.info',
+        domain:         'feeds.bugsplat.info',
         enable_starttls_auto: true
       }
     )
