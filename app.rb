@@ -15,6 +15,7 @@ Click this link to view the fax:
 
     Pony.mail(
       to: params[:email],
+      from: 'fax@bugsplat.info',
       subject: "Fax received from #{params[:From]}",
       body: body,
       via: :smtp,
