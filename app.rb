@@ -6,7 +6,9 @@ set :port, ENV['PORT'] || 4567
 
 post '/' do
   if params[:FaxStatus] == 'received'
-    body = """Click this link to view the fax:
+    body = """You have a new fax from #{params[:From]} to #{params[:To]}.
+
+Click this link to view the fax:
 
 #{params[:MediaUrl]}
 """
