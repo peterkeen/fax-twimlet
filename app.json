@@ -6,27 +6,33 @@
   "env": {
       "SMTP_SERVER_ADDRESS": {
           "description": "Address of SMTP server",
-          "required": true
+          "required": true,
+          "value": ""
       },
       "SMTP_SERVER_DOMAIN": {
           "description": "HELO domain to use when sending email",
-          "required": true
+          "required": true,
+          "value": ""
       },
       "SMTP_SERVER_PORT": {
           "description": "SMTP server port",
-          "required": true
+          "required": true,
+          "value": ""
       },
       "SMTP_SERVER_USERNAME": {
           "description": "SMTP username",
-          "required": true
+          "required": true,
+          "value": ""
       },
       "SMTP_SERVER_PASSWORD": {
           "description": "SMTP password",
-          "required": true
+          "required": true,
+          "value": ""
       },
       "SMTP_SERVER_FROM": {
           "description": "email address to send as",
-          "required": true
+          "required": true,
+          "value": ""
       }
   }
 }
